@@ -18,7 +18,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY", 'xbit_8G7WAYFBTC5T8K8XP7Z3UM') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 ## Other vaes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -37,15 +37,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/xbitcode/music.git",
+    "https://github.com/linkers697/Cutemusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/amigr8")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/randomlychats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Asianbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AsianOfficial")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
