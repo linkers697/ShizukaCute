@@ -90,22 +90,22 @@ confirmer = {}
 file_cache: dict[str, float] = {}
 
 START_IMG_URL = ["https://files.catbox.moe/zwbfvf.png",
-                 "https://files.catbox.moe/d4z1dl.jpg",
-                 "https://files.catbox.moe/jud9qk.png"]
+                 "https://files.catbox.moe/jud9qk.png",
+                 "https://files.catbox.moe/zwbfvf.png"]
     
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/zwbfvf.png"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-STATS_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/zwbfvf.png"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/zwbfvf.png"
-STREAM_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/zwbfvf.png"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+STATS_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jud9qk.png"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jud9qk.png"
+STREAM_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
 
 
 
