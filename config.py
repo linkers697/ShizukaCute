@@ -18,7 +18,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY", 'xbit_NEW2CZAVUHCBB7C1AOXY4N') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY", 'xbit_KDND9Z1D7EIIU87NG2AFGG') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 ## Other vaes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/linkers697/Bakicutemusic",
+    "https://github.com/linkers697/AuraCute",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,23 +89,23 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://files.catbox.moe/zwbfvf.png",
-                 "https://files.catbox.moe/jud9qk.png",
-                 "https://files.catbox.moe/zwbfvf.png"]
+START_IMG_URL = ["https://files.catbox.moe/7db3yj.png",
+                 "https://files.catbox.moe/7db3yj.png",
+                 "https://files.catbox.moe/7db3yj.png"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/zwbfvf.png"
+    "PING_IMG_URL", "https://files.catbox.moe/7db3yj.png"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-STATS_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jud9qk.png"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jud9qk.png"
-STREAM_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jud9qk.png"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jud9qk.png"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+STATS_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/7db3yj.png"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7db3yj.png"
+STREAM_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/7db3yj.png"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/7db3yj.png"
 
 
 
