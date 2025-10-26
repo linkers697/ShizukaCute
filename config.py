@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/linkers697/AuraCute",
+    "https://github.com/linkers697/ShizukaCute",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,9 +89,9 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://files.catbox.moe/7db3yj.png",
-                 "https://files.catbox.moe/7db3yj.png",
-                 "https://files.catbox.moe/7db3yj.png"]
+START_IMG_URL = ["https://files.catbox.moe/9bgfbj.jpg",
+                 "https://files.catbox.moe/9bgfbj.jpg",
+                 "https://files.catbox.moe/9bgfbj.jpg"]
     
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/7db3yj.png"
